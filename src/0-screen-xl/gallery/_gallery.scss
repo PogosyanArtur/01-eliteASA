@@ -1,0 +1,41 @@
+.gallery {
+    background-repeat: no-repeat;
+    background-image: linear-gradient(rgba(36, 36, 36, 0.9),rgba(36, 36, 36, 0.9)), url("../img/goat-1_4.jpg");     
+    background-size: cover;
+    padding-bottom: 20rem;
+    overflow: hidden;
+    
+    &__container {
+        width: 65%;
+        margin: 0 auto 5rem auto;
+        text-align: center;  
+    }
+
+    &__item {
+        display: inline-block;
+        position: relative;
+        max-width: 100%;
+        transform: scale(0);
+        transition: 1.5s;
+        &::before {
+            content: "";
+            display: block;
+            height: 100%;
+            width: 100%;
+            background-color: rgba(36, 36, 36, 0.1);
+            position: absolute;
+            z-index: 10;            
+        }
+        &_big{
+            width: 49.5%;
+        }
+        &_small{
+            width: 24.5%;
+        }
+    }
+
+    &__item-thumb {
+        max-width: 100%;
+        border-radius: 5px;
+    }
+}

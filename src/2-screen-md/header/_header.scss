@@ -1,0 +1,20 @@
+.header {
+    &__headline{
+        justify-content: space-around;
+    }
+    &__time{
+        display: none;
+    }
+    &__caption-box {
+        top: 30%;
+    }
+    &__caption {
+        font-size: 3.8rem;
+        letter-spacing: 0.5rem;
+        padding-bottom: 1.8rem;
+    }
+    &__caption-text {
+        font-size: 2rem;
+        letter-spacing: 0.2rem;
+    }
+ }

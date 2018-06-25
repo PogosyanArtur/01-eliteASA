@@ -1,0 +1,92 @@
+/************************
+* FONT FAMILY
+*************************/
+/************************
+* COLOR
+*************************/
+/*white*/
+/*black*/
+/*main*/
+/*distinctive*/
+/*accent*/
+.nav__open, .nav__close {
+  display: none; }
+
+.nav__more-button {
+  display: inline-block; }
+
+.nav__item:nth-child(6) {
+  display: none; }
+
+.nav__item:nth-child(5) {
+  display: none; }
+
+.nav__more-item:nth-child(6) {
+  display: block; }
+
+.nav__more-item:nth-child(5) {
+  display: block; }
+
+.nav__link {
+  font-size: 1.8rem; }
+
+.wrap {
+  width: 72rem;
+  margin: 0 auto;
+  overflow: hidden; }
+
+.header__headline {
+  justify-content: space-around; }
+
+.header__time {
+  display: none; }
+
+.header__caption-box {
+  top: 30%; }
+
+.header__caption {
+  font-size: 3.8rem;
+  letter-spacing: 0.5rem;
+  padding-bottom: 1.8rem; }
+
+.header__caption-text {
+  font-size: 2rem;
+  letter-spacing: 0.2rem; }
+
+.card {
+  width: 40%; }
+
+.advantages-card__header {
+  font-size: 1.8rem; }
+
+.advantages-card__text {
+  display: none; }
+
+.advantages-card__context {
+  width: 50%;
+  display: flex;
+  align-items: center; }
+
+.scheme__card {
+  width: 15%;
+  padding: 0; }
+
+.scheme__arrow {
+  width: 1.8rem;
+  height: 6.8rem;
+  background-repeat: no-repeat;
+  background-size: 100%; }
+
+.scheme__img-box {
+  width: 8rem;
+  height: 8rem; }
+
+.scheme__img {
+  width: 4rem;
+  height: 4rem; }
+
+.scheme__header {
+  font-size: 1.2rem; }
+
+.gallery__container {
+  width: 100%; }

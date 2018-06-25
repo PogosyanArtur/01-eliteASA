@@ -1,0 +1,28 @@
+/************************
+* FONT FAMILY
+*************************/
+$ff-0: 'PT Sans','Arial','Helvetica','sans-serif';
+$ff-1: 'Open Sans','Arial','Helvetica','sans-serif';
+
+/************************
+* COLOR
+*************************/
+
+/*white*/
+$c-white:rgb(255, 255, 255);
+$c-white-l1:rgb(246, 241, 237);
+$c-white-l2:rgb(243, 227, 214);
+/*black*/
+$c-black-d1:rgb(0, 0, 0);
+$c-black:rgb(26, 26, 26);
+$c-black-l1:rgb(60, 60, 60);
+$c-unique-l1:rgb(100, 88, 76);
+$c-unique:rgb(102, 102, 102);
+$c-unique-d1:rgb(119, 107, 95);
+$c-unique-d2:rgb(36, 36, 36);
+/*main*/
+$c-main:#27ae60;
+/*distinctive*/
+$c-distinctive:rgb(95, 144, 176);
+/*accent*/
+$c-accent:#F49C37;

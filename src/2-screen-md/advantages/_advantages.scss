@@ -1,0 +1,20 @@
+.advantages {
+
+}
+
+.advantages-card {
+    &__header{
+        font-size: 1.8rem;
+    }
+
+    &__text{
+        display: none;
+    }
+
+    &__context {
+        width: 50%;
+       display: flex;
+       align-items: center;
+    }
+
+}

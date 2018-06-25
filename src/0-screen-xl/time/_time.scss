@@ -1,0 +1,25 @@
+.time {
+    &__text-box {
+        display: inline-block;
+        margin-left: 1rem;
+    }
+    &__icon {
+        width: 4rem;
+        height: 4rem;        
+        fill: $c-main;
+        display: inline-block;
+        transform: translate(1.5rem,-1.5rem);
+        
+    }
+    &__text-caption {
+        font-size: 1.6rem;
+        color: $c-main;
+    }
+    &__text-content {
+        font-family: $ff-1;
+        font-size: 1.8rem;
+        color: $c-black;
+        font-weight: 700;
+
+    }
+}

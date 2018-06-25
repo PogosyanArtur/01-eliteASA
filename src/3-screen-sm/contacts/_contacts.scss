@@ -1,0 +1,15 @@
+.contacts {
+    &__container {
+        position: static;
+        transform: translateX(0rem);
+        opacity: 1;
+    }
+    &__box {
+        &::after {
+            display: none;
+        }
+    }
+    &__map {
+        display: none;
+    }
+}

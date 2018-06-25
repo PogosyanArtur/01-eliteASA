@@ -1,0 +1,24 @@
+.nav {
+    &__open,
+    &__close {
+        display: none;
+    }
+    &__more-button {
+        display: inline-block;
+    }
+    &__item:nth-child(6) {
+        display: none;
+    }
+    &__item:nth-child(5) {
+        display: none;
+    }
+    &__more-item:nth-child(6) {
+        display: block;
+    }
+    &__more-item:nth-child(5) {
+        display: block;
+    }
+    &__link {
+        font-size: 1.8rem;
+    }
+}

@@ -1,0 +1,15 @@
+.gallery {
+    
+    &__container {
+        width: 100%;
+    }
+    &__item {
+        transform: scale(1);
+        &_big{
+            width: 99%;
+        }
+        &_small{
+            width: 49%;
+        }
+    }
+}

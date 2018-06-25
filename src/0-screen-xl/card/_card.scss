@@ -1,0 +1,70 @@
+.card {
+    width: 25%;
+    text-align: center;
+    background-color: $c-white-l1;
+    border-radius: 0.7rem;
+    color: $c-distinctive;
+    display: inline-block;
+    transition: 1s ease-out;
+    opacity: 0;
+    &+&{
+        margin-left: 10%;
+    }
+    &__wrap{
+        display: flex;
+        justify-content: center;
+    }
+    &__img-container {        
+        background-color: $c-main;
+        padding: 10% 5% 15%;
+        border-radius: 0.7rem;
+        clip-path: polygon(0% 0%, 100% 0%, 100% 70%, 50% 100%, 0% 70%);
+        &_distinctive {
+            background-color: $c-distinctive;
+        }
+    }
+    &__img {
+        display: inline-block;
+        overflow: hidden;
+        width: 20rem;
+        height: 20rem;
+        border-radius: 100%;
+        border: 0.3rem solid $c-distinctive;
+        background-image: url(../img/chanax-2.jpg);
+        background-color: $c-white;
+        background-size: 170%;
+        background-repeat: no-repeat;
+        background-position: center center;
+        &_main{
+            border: 0.3rem solid $c-main;
+            background-image: url(../img/goat-1_1.jpg);
+        }
+    }
+    &__header {
+        padding: 10% 0; 
+        font-size: 2rem;
+        letter-spacing: 2px;        
+    }
+    &__text{
+        overflow: hidden;
+        height: 13rem;
+        margin: 0 10% 5%;
+    }
+
+    &__price {
+        background-color: $c-white-l2;
+        padding: 7% 0;
+        font-size: 2rem;
+        letter-spacing: 2px;
+        & p:first-child {
+            font-weight: bold;
+        }
+    }
+    &__left{
+        transform: translate(-5rem,-5rem);
+    }
+    &__right{
+        transform: translate(5rem,-5rem);
+    }
+    
+}

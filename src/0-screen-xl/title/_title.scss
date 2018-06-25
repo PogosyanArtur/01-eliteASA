@@ -1,0 +1,12 @@
+.title{
+    font-size: 3rem;
+    color:$c-black-l1;
+    padding: 5rem 1rem 7rem 1rem;
+    letter-spacing: 2px;
+    text-align: center;
+    transition: 2s ease 0.5s;
+    transform: scale(0);
+    &_light{
+        color:$c-white-l1;
+    }
+}

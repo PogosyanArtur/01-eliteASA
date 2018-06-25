@@ -1,0 +1,30 @@
+.scheme {
+    &__container {
+        display: block;
+        padding: 0rem 0 8rem 0;
+    }
+    &__card {
+        width: 100%;
+        padding: 2rem 3rem;
+        flex-direction: row;
+        justify-content: flex-start;
+    }
+    &__arrow {
+        display: none;
+    }
+    &__img-box {
+        width: 8rem;
+        height: 8rem;
+        transform: translateY(0rem);
+        opacity: 1;
+    }
+    &__img {
+        width: 4rem;
+        height: 4rem;
+    }
+    &__header {
+        font-size: 1.4rem;
+        margin-left: 2rem;
+        transform:scale(1);
+    }
+}

@@ -1,0 +1,40 @@
+/************************
+* FONT FAMILY
+*************************/
+/************************
+* COLOR
+*************************/
+/*white*/
+/*black*/
+/*main*/
+/*distinctive*/
+/*accent*/
+.nav__open, .nav__close {
+  display: none; }
+
+.nav__more-button {
+  display: inline-block; }
+
+.nav__item:nth-child(6) {
+  display: none; }
+
+.nav__more-item:nth-child(6) {
+  display: block; }
+
+.wrap {
+  width: 96rem;
+  margin: 0 auto;
+  overflow: hidden; }
+
+.card {
+  width: 30%; }
+
+.scheme__card {
+  width: 17%; }
+
+.scheme__img-box {
+  width: 12rem;
+  height: 12rem; }
+
+.gallery__container {
+  width: 80%; }

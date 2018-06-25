@@ -1,0 +1,26 @@
+.phone{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    &__icon{
+        width: 4rem;
+        height: 4rem;        
+        fill: $c-main;
+        transform: translate(1.5rem,-1.5rem);       
+        display: block;
+        float:left;
+    }
+    &__box{
+        float: right;
+    }
+    &__title{
+        margin-left: 1rem;
+        font-family: $ff-1;
+        font-weight: 700;
+        font-size: 1.8rem;
+        text-decoration: none;
+        display: block;
+        color: $c-black;
+        
+    }
+}

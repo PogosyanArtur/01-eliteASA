@@ -1,0 +1,39 @@
+.advantages {
+    &__flex {
+        display: block;
+        height: auto;
+    }
+    &__container {
+        display: block;
+        padding-bottom: 0rem;
+    }
+}
+
+.advantages-card {
+    &__header {
+        font-size: 1.6rem; 
+    transform: translateY(0);
+            opacity: 1;
+        
+    }
+    &__wrap {
+        width: auto;
+        display: flex;
+        justify-content: center;
+        padding-bottom: 1.5rem
+    }
+    &__img-box {
+        height: 8rem;
+        width: 8rem;
+        transform: translateX(0);
+        opacity: 1;
+    }
+    &__text {
+        display: none;
+    }
+    &__context {
+        width: 45%;
+        display: flex;
+        align-items: center;
+    }
+}
