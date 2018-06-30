@@ -103,7 +103,7 @@ const path = {
     },
     // serever
 
-    server: "./bundle",
+    server: "./dist",
 }
 
 
@@ -146,9 +146,7 @@ gulp.task('bundle:css', function () {
 
 // bulid CSS
 gulp.task('build:css', function () {
-    for (let i = 0; i < path.bundle.css.out.length; i++) {
-        gulp.src(['./bundle/css/' + path.bundle.css.out[0], './bundle/css/' + path.bundle.css.out[i]])
-            .pipe(concat(path.bundle.css.out[i]))
+        gulp.src('./bundle/css/*.css')
             .pipe(autoprefixer({
                 browsers: ['last 4 versions'],
                 cascade: false
@@ -159,8 +157,7 @@ gulp.task('build:css', function () {
                 debug: true
             }))
             .pipe(cssnano())
-            .pipe(gulp.dest('./bundle/img/'))
-    }
+            .pipe(gulp.dest('./dist/css/'))
 
 });
 
